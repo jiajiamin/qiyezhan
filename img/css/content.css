@@ -1,0 +1,250 @@
+@import url("base.css");
+body{
+	width: 100%;
+	height: 100%;
+	background: #F8F8F8;
+}
+.headNav{
+	width: 100%;
+	height: 160px;
+}
+.headNav .nameNav{
+	width: 100%;
+	height: 110px;
+	display: flex;
+	align-items: center;
+}
+.headNav .nameNav img{
+	width: 267px;
+	height: 61px;
+	margin-left: 260px;
+}
+.headNav .nav{
+	width: 100%;
+	height: 50px;
+	background: black;
+}
+.headNav .nav .con{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+.headNav .nav .con div{
+	width: 100px;
+	height: 100%;
+	margin-left: 30px;
+	display: flex ;
+	justify-content: center;
+}
+.headNav .nav .con div:hover{
+	background: #fff;
+}
+.headNav .nav .con div:first-child{
+	margin-left: 0;
+}
+.headNav .nav .con a{
+	display: block;
+	width: 64px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.headNav .nav .con span{
+	font-size: 16px;
+	font-weight: normal;
+	font-family: 微软雅黑;
+	color: #fff;
+}
+.headNav .nav .con div:hover span{
+	color: black;
+}
+.headNav .nav .con .beauty{
+	background: white;
+	
+}
+.headNav .nav .con .beauty span{
+	color: black;
+}
+.pic{
+	width: 100%;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+}
+.pic img{
+	position: absolute;
+	top: 0;
+	left: -180px;
+}
+.content{
+	width: 1000px;
+	height: 1046.8px;
+	margin: 10px auto;
+	overflow: hidden;
+}
+.content .title{
+	width: 100%;
+	height: 32.8px;
+	margin-top: 10px;
+}
+.content .title span{
+	display: block;
+	width: 100%;
+	height: 32.8px;
+	font-size: 25px;
+}
+.content .con{
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	border-top: 1px dashed #F0EFEF;
+	border-bottom: 1px dashed #F0EFEF;
+}
+.content .con p:first-child{
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+.content .con p:last-child{
+	padding-bottom: 50px;
+	box-sizing: border-box;
+}
+.content .con span{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #676767;
+	line-height: 2em;
+}
+.content .bottom{
+	width: 100%;
+	height: 69px;
+	margin-top: 40px;
+}
+.content .bottom .lastNav{
+	width: 100%;
+	height: 16.8px;
+	display: flex;
+	justify-content: space-between;
+}
+.content .bottom .lastNav .lastNav-left{
+	width: 213px;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.content .bottom .lastNav .lastNav-right{
+	width: 137px;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.content .bottom .lastNav span{
+	display: block;
+	font-size: 13px;
+	color: #666;
+}
+.content .bottom .lastNav a{
+	font-size: 13px;
+	color: #666;
+	text-decoration: underline ;
+}
+.content .bottom .weixin{
+	width: auto;
+	height: auto;
+	float: right;
+	display: flex;
+	margin-top: 10px;
+	
+}
+.content .bottom .weixin span{
+	display: block;
+	font-size: 13px;
+	color: #666;
+}
+.content .bottom .weixin a:nth-of-type(1){
+	display: block;
+	width: 33px;
+	height: 33px;
+	background: url('../img/content00.png') -2227px -748px no-repeat;
+}
+.content .bottom .weixin a:nth-of-type(2){
+	display: block;
+	width: 33px;
+	height: 33px;
+	background: url('../img/content00.png') -2264px -748px no-repeat;
+}
+.content .bottom .weixin a:nth-of-type(3){
+	display: block;
+	width: 33px;
+	height: 33px;
+	background: url('../img/content00.png') -2301px -748px no-repeat;
+}
+.content .bottom .weixin a:nth-of-type(4){
+	display: block;
+	width: 33px;
+	height: 33px;
+	background: url('../img/content00.png') -2338px -748px no-repeat;
+}
+.content .bottom .weixin a:nth-of-type(5){
+	display: block;
+	width: 33px;
+	height: 33px;
+	background: url('../img/content00.png') -2375px -748px no-repeat;
+}
+.content .bottom .weixin a:nth-of-type(6){
+	display: block;
+	width: 33px;
+	height: 33px;
+	background: url('../img/content00.png') -2412px -748px no-repeat;
+}
+.end{
+	width: 100%;
+	height: 121.8px;
+	background-color: black;
+	display: flex;
+	align-items: center;
+}
+.end .endBox{
+	width: 1000px;
+	height: 76.8px;
+	margin: 0 auto;
+}
+.end .endBox .td{
+	width: 1000px;
+	height: 25.6px;
+	display: flex;
+	justify-content: space-between;
+}
+.end .endBox .td span{
+	display: block;
+	width: auto;
+	height: 25.6px;
+	display: flex;
+	color: gray;
+	font-size: 13px;
+}
+.end .endBox .td span a{
+	margin-left: 10px;
+	color: gray;
+	position: relative;
+	font-size: 13px;
+}
+.end .endBox .td span a:hover{
+	color: white;
+}
+.end .endBox .td span a:first-child::after, .end .endBox .td span a:nth-child(2)::after, .end .endBox .td span a:nth-child(3)::after{
+	content: "";
+	position: absolute;
+	top: 5px;
+	right: -6px;
+	width: 1px;
+	height: 10px;
+	background: gray;
+}
+.end .endBox .td span i{
+	display: block;
+	margin-left: 10px;
+	font-style: normal;
+}

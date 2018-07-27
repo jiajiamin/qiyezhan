@@ -1,0 +1,358 @@
+@import url("base.css");
+body{
+	width: 100%;
+	height: 100%;
+	background: #F8F8F8;
+}
+.headNav{
+	width: 100%;
+	height: 160px;
+}
+.headNav .nameNav{
+	width: 100%;
+	height: 110px;
+	display: flex;
+	align-items: center;
+}
+.headNav .nameNav img{
+	width: 267px;
+	height: 61px;
+	margin-left: 260px;
+}
+.headNav .nav{
+	width: 100%;
+	height: 50px;
+	background: black;
+}
+.headNav .nav .con{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+.headNav .nav .con div{
+	width: 100px;
+	height: 100%;
+	margin-left: 30px;
+	display: flex ;
+	justify-content: center;
+}
+.headNav .nav .con div:hover{
+	background: #fff;
+}
+.headNav .nav .con div:first-child{
+	margin-left: 0;
+}
+.headNav .nav .con a{
+	display: block;
+	width: 64px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.headNav .nav .con span{
+	font-size: 16px;
+	font-weight: normal;
+	font-family: 微软雅黑;
+	color: #fff;
+}
+.headNav .nav .con div:hover span{
+	color: black;
+}
+.headNav .nav .con .homePage{
+	background: white;
+	
+}
+.headNav .nav .con .homePage span{
+	color: black;
+}
+.pic{
+	width: 100%;
+	height: 450px;
+	position: relative;
+	overflow: hidden;
+}
+.pic img{
+	position: absolute;
+	top: 0;
+	left: -180px;
+}
+.hot{
+	width: 1000px;
+	height: 585px;
+	margin: 20px auto;
+}
+.hot .title{
+	width: 100%;
+	height: 80px;
+	background: white;
+}
+.hot .dogPic{
+	width: 100%;
+	height: 505px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+	background: white;
+
+}
+.hot .dogPic .son{
+	width: 235px;
+	height: 219px;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+.hot .dogPic .son:nth-child(1){
+	width: 236px;
+	background: url('../img/08.png') no-repeat;	
+	background-size: 236px 219px;	
+}
+.hot .dogPic .son:nth-child(1) a{
+	display: block;
+	width: 236px;
+	height: 219px;
+	transition: all 1s;
+}
+.hot .dogPic .son:hover a{
+	background: rgba(0, 0, 0, 0.3);
+	
+}
+.hot .dogPic .son:nth-child(2){
+	background: url('../img/09.png') no-repeat;	
+	background-size: 235px 219px;
+}
+.hot .dogPic .son:nth-child(2) a{
+	display: block;
+	width: 235px;
+	height: 219px;
+	transition: all 1s;
+}
+.hot .dogPic .son:nth-child(3){
+	background: url('../img/07.png') no-repeat;	
+	background-size: 235px 219px;
+}
+.hot .dogPic .son:nth-child(3) a{
+	display: block;
+	width: 235px;
+	height: 219px;
+	transition: all 1s;
+}
+.hot .dogPic .son:nth-child(4){
+	background: url('../img/10.png') no-repeat;	
+	background-size: 235px 219px;
+}
+.hot .dogPic .son:nth-child(4) a{
+	display: block;
+	width: 235px;
+	height: 219px;
+	transition: all 1s;
+}
+.hot .dogPic .son:nth-child(5){
+	width: 485px;
+	background: url('../img/06.png') no-repeat;	
+	background-size: 485px 219px;	
+}
+.hot .dogPic .son:nth-child(5) a{
+	display: block;
+	width: 485px;
+	height: 219px;
+	transition: all 1s;
+}
+.hot .dogPic .son:nth-child(6){
+	width: 235px;	
+	background: url('../img/11.png') no-repeat;	
+	background-size: 235px 219px;
+	
+}
+.hot .dogPic .son:nth-child(6) a{
+	display: block;
+	width: 235px;
+	height: 219px;
+	transition: all 1s;
+}
+.hot .dogPic .son:nth-child(7){
+	width: 235px;	
+	background: url('../img/12.png') no-repeat;	
+	background-size: 235px 219px;
+	
+}
+.hot .dogPic .son:nth-child(7) a{
+	display: block;
+	width: 235px;
+	height: 219px;
+	transition: all 1s;
+}
+.hot .dogPic .son span{
+	display: block;
+	width: auto;
+	height: 36px;
+	color: rgba(0, 0, 0, 0);
+	transition: all 1s;
+	text-align: center;
+	padding-top: 15px;
+	font-size: 12px;
+	margin-left: 20px;
+	margin-right: 20px;	
+	display: -webkit-box;
+	-webkit-box-orient:vertical ;
+	-webkit-line-clamp:3 ;
+	line-height: 12px;
+	overflow: hidden;
+	
+}
+.hot .dogPic .son span:first-child{
+	padding-top: 70px;
+}
+.hot .dogPic .son:hover span{
+	display: block;
+	color: white;
+	display: -webkit-box;
+	-webkit-box-orient:vertical ;
+	-webkit-line-clamp:3 ;
+	line-height: 12px;
+	overflow: hidden;
+}
+.varieties{
+	width: 1000px;
+	height: 364px;
+	margin: 30px auto;
+	background: white;
+}
+.varieties .varPic{
+	width: 100%;
+	height: 80px;
+}
+.varieties .picc{
+	width: 1000px;
+	height: 284px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.varieties .picc .box{
+	width: 230px;
+	height: 240px;
+}
+.varieties .picc .box img{
+	width: 230px;
+	height: 240px;
+}
+.love{
+	width: 1000px;
+	height: 478px;
+	margin: 20px auto 10px auto;
+	background: white;
+}
+.love .dog{
+	width: 100%;
+	height: 80px;
+}
+.love .after{
+	width: 1000px;
+	height: 398px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.love .after .left{
+	width: 340px;
+	height: 341px;
+}
+.love .after .right{
+	width: 633.6px;
+	height: 357.6px;
+}
+.love .after .right .word{
+	width: 100%;
+	height: 33%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.love .after .right .word:nth-child(2){
+	border-top: 1px dashed #E9E9E9;
+	border-bottom: 1px dashed #E9E9E9;
+}
+.love .after .right .word .date{
+	width: 100%;
+	height: 22.4px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.love .after .right .word .date a{
+	width: auto;
+	height: 100%;
+	color: black;
+}
+.love .after .right .word .date span{
+	width: auto;
+	height: 100%;
+	font-weight: 100;
+}
+.love .after .right .word .date:hover a, .love .after .right .word .date:hover span{
+	color: #2AC0DA;
+}
+.love .after .right .word .wp{
+	width: 100%;
+	height: 39.2px;
+}
+.love .after .right .word .wp span{
+	width: auto;
+	height: 100%;
+	font-weight: 100;
+	color: gray;
+	font-size: 14px;
+}
+.end{
+	width: 100%;
+	height: 121.8px;
+	background-color: black;
+	display: flex;
+	align-items: center;
+}
+.end .endBox{
+	width: 1000px;
+	height: 76.8px;
+	margin: 0 auto;
+}
+.end .endBox .td{
+	width: 1000px;
+	height: 25.6px;
+	display: flex;
+	justify-content: space-between;
+}
+.end .endBox .td span{
+	display: block;
+	width: auto;
+	height: 25.6px;
+	display: flex;
+	color: gray;
+	font-size: 13px;
+}
+.end .endBox .td span a{
+	margin-left: 10px;
+	color: gray;
+	position: relative;
+	font-size: 13px;
+}
+.end .endBox .td span a:hover{
+	color: white;
+}
+.end .endBox .td span a:first-child::after, .end .endBox .td span a:nth-child(2)::after, .end .endBox .td span a:nth-child(3)::after{
+	content: "";
+	position: absolute;
+	top: 5px;
+	right: -6px;
+	width: 1px;
+	height: 10px;
+	background: gray;
+}
+.end .endBox .td span i{
+	display: block;
+	margin-left: 10px;
+	font-style: normal;
+}

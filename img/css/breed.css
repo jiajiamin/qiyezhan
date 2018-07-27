@@ -1,0 +1,217 @@
+@import url("base.css");
+body{
+	width: 100%;
+	height: 100%;
+	background: #F8F8F8;
+}
+.headNav{
+	width: 100%;
+	height: 160px;
+}
+.headNav .nameNav{
+	width: 100%;
+	height: 110px;
+	display: flex;
+	align-items: center;
+}
+.headNav .nameNav img{
+	width: 267px;
+	height: 61px;
+	margin-left: 260px;
+}
+.headNav .nav{
+	width: 100%;
+	height: 50px;
+	background: black;
+}
+.headNav .nav .con{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+.headNav .nav .con div{
+	width: 100px;
+	height: 100%;
+	margin-left: 30px;
+	display: flex ;
+	justify-content: center;
+}
+.headNav .nav .con div:hover{
+	background: #fff;
+}
+.headNav .nav .con div:first-child{
+	margin-left: 0;
+}
+.headNav .nav .con a{
+	display: block;
+	width: 64px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.headNav .nav .con span{
+	font-size: 16px;
+	font-weight: normal;
+	font-family: 微软雅黑;
+	color: #fff;
+}
+.headNav .nav .con div:hover span{
+	color: black;
+}
+.headNav .nav .con .varietiess{
+	background: white;
+	
+}
+.headNav .nav .con .varietiess span{
+	color: black;
+}
+.pic{
+	width: 100%;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+}
+.pic img{
+	position: absolute;
+	top: 0;
+	left: -180px;
+}
+.love{
+	width: 1000px;
+	height: 361.4px;
+	margin: 20px auto 10px auto;
+	background: white;
+}
+.love .after{
+	width: 1000px;
+	height: 398px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+.small{
+	width: 1000px;
+	height: 284.4px;
+	background: white;
+	margin: 15px auto 0 auto;
+}
+.small .title{
+	width: 100%;
+	height: 34.4px;
+}
+.small .title span{
+	line-height: 34.4px;
+	font-size: 18px;
+	margin-left: 10px;
+}
+.small .smallBox{
+	width: 100%;
+	height: 250px;
+	display: flex;
+	justify-content: space-around;
+}
+.small .smallBox .dog{
+	width: 235px;
+	height: 250px;
+}
+.small .smallBox .dog a{
+	display: block;
+	width: 235px;
+	height: 186px;
+	position: relative;
+	top: 0;
+	left: 0;
+
+}
+.small .smallBox .dog img{
+	display: block;
+	width: 235px;
+	height: 186px;
+	margin-top: 10px;
+	
+}
+.small .smallBox .dog a::after{
+	content: "";
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: url('../img/breed05.png') no-repeat;
+	position: absolute;
+	top: 60px;
+	left: 80px;
+	opacity: 0;
+	transition: all 0.5s;
+}
+.small .smallBox .dog a:hover::after{
+	opacity: 1;
+}
+.small .smallBox .dog span{
+	display: block;
+	text-align: center;
+	line-height: 54px;
+}
+.mid{
+	width: 1000px;
+	height: 284.4px;
+	background: pink;
+	margin: 5px auto;
+}
+.big{
+	width: 1000px;
+	height: 284.4px;
+	background: pink;
+	margin: 5px auto;
+}
+.end{
+	width: 100%;
+	height: 121.8px;
+	background-color: black;
+	display: flex;
+	align-items: center;
+}
+.end .endBox{
+	width: 1000px;
+	height: 76.8px;
+	margin: 0 auto;
+}
+.end .endBox .td{
+	width: 1000px;
+	height: 25.6px;
+	display: flex;
+	justify-content: space-between;
+}
+.end .endBox .td span{
+	display: block;
+	width: auto;
+	height: 25.6px;
+	display: flex;
+	color: gray;
+	font-size: 13px;
+}
+.end .endBox .td span a{
+	margin-left: 10px;
+	color: gray;
+	position: relative;
+	font-size: 13px;
+}
+.end .endBox .td span a:hover{
+	color: white;
+}
+.end .endBox .td span a:first-child::after, .end .endBox .td span a:nth-child(2)::after, .end .endBox .td span a:nth-child(3)::after{
+	content: "";
+	position: absolute;
+	top: 5px;
+	right: -6px;
+	width: 1px;
+	height: 10px;
+	background: gray;
+}
+.end .endBox .td span i{
+	display: block;
+	margin-left: 10px;
+	font-style: normal;
+}
